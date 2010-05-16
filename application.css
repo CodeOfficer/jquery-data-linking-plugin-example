@@ -1,0 +1,31 @@
+input	{
+	width: 60px;
+}
+
+input.id	{
+	width: 20px;
+}
+
+input.score	{
+	width: 30px;
+}
+
+input.full_name	{
+	width: 80px;
+}
+
+th {
+	text-align: left;
+}
+
+td {
+	padding-right: 15px;
+	vertical-align: top;
+}
+
+#results {
+	float: right;
+	width: 500px;
+	height: 500px;
+	overflow: auto;
+}

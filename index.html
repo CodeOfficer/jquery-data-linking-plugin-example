@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>jquery datalink</title>
+	<link href="application.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="jquery-datalink.js"></script>
+	<script type="text/javascript" src="ejs_production.js"></script>
+	<script type="text/javascript" src="application.js"></script>
+</head>
+<body>
+
+<div id="results"></div>
+
+<h2>Account</h2>
+<button id="change">Change!</button>
+<div id="account_info">
+</div>
+
+<div id="player_info">
+	<h2>Players</h2>
+
+	<button id="add">Add!</button>
+	<form action="#" method="get">
+		<table class="players">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>First</th>
+					<th>Last</th>
+					<th>Score</th>
+				</tr>
+			</thead>
+			<tbody id="player_table_body">
+			</tbody>
+		</table>
+	</form>
+</div>
+
+</body>
+</html>

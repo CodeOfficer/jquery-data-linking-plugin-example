@@ -1,0 +1,11 @@
+<% for(var i=0; i < player_table.length; i++) { %>
+	<% var user = player_table[i].user %>
+	<tr class="user">
+		<td><input type="text" name="id" value="<%= user.id %>" class="id" /></td>
+		<td><input type="text" name="first_name" value="<%= user.first_name %>" class="first_name" /></td>
+		<td><input type="text" name="last_name" value="<%= user.last_name %>" class="last_name" /></td>
+		<td><input type="text" name="score" value="<%= user.score %>" class="score" /></td>
+		<td class="full_name"></td>
+		<td><a href="#" class="user-remove">remove</a></td>
+	</tr>
+<% } %>
